@@ -4,6 +4,8 @@ A standalone GenLayer oracle for **paired binary experiment inference under inco
 
 The difficult case is a partially documented experiment. Dropping missing pairs can manufacture significance. Testing each endpoint independently can also manufacture a family finding. TwinTail exposes both problems: one unresolved endpoint can make a fully observed endpoint's multiplicity-adjusted decision unresolved.
 
+**Deployed and verified on gasless StudioNet:** [primary contract](https://explorer-studio.genlayer.com/address/0x399C922094A90Aa6a4cF5E28169d9bDCfF59463f), [24 finalized scenario receipts](proofs/README.md), [ready contribution text](docs/submission.md). All three families match independent exhaustive oracles and fresh onchain reads. Lint, 56 direct tests and seven transport tests pass. Twelve receipts are expected rejected calls with unchanged state; four adjudications preserve a dissenting vote.
+
 ## Mechanism
 
 1. Deploy with 1–3 immutable endpoint IDs, 3–8 ordered matched-pair IDs per endpoint, commit-pinned raw GitHub URLs and SHA-256 hashes. The family threshold is fixed at **1/20**. There is no administrator or replacement endpoint.
@@ -64,6 +66,7 @@ Proof workflows use disposable encrypted caller accounts and discard their keys.
 
 - [Contract](contracts/twin_tail.py)
 - [Consensus and inference design](docs/design.md)
+- [Constructor, report schema and consumer API](docs/api.md)
 - [Direct tests](tests/direct/test_inference.py)
 - [Live proof plan and independent oracle](scripts/scenario.cjs)
 - [Proof receipts](proofs/README.md)

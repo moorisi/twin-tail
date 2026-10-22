@@ -1,0 +1,305 @@
+{
+  "scope": "multiplicity",
+  "mode": "fresh-rpc-and-state",
+  "verified_at": "2026-10-22T08:49:33.619Z",
+  "source_sha256": "b7f9c0422a03317995da7343e15b8a06d63d7cfc25192bb18c6dcdd0f9ac8c92",
+  "instances": [
+    {
+      "id": "multiplicity",
+      "contract": "0xae3004B29fE5396DFD1Bd97244023e36B04d999B",
+      "bounds": [
+        {
+          "lower_counts": [
+            5,
+            0
+          ],
+          "lower_ticks": 8,
+          "lower_witness": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "reachable_counts": 1,
+          "upper_counts": [
+            5,
+            0
+          ],
+          "upper_ticks": 8,
+          "upper_witness": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        },
+        {
+          "lower_counts": [
+            0,
+            3
+          ],
+          "lower_ticks": 256,
+          "lower_witness": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "reachable_counts": 1,
+          "upper_counts": [
+            0,
+            3
+          ],
+          "upper_ticks": 256,
+          "upper_witness": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        }
+      ],
+      "result": {
+        "alpha": [
+          1,
+          20
+        ],
+        "decisions": [
+          "NOT_ESTABLISHED",
+          "NOT_ESTABLISHED"
+        ],
+        "denominator": 256,
+        "lower_adjusted_ticks": [
+          16,
+          256
+        ],
+        "status": "COMPLETE",
+        "upper_adjusted_ticks": [
+          16,
+          256
+        ]
+      }
+    }
+  ],
+  "transactions": [
+    {
+      "label": "multiplicity-deployment",
+      "hash": "0xc55d6fb337042b4685d7a11101437867b6c40ea0fd797a589a7faafad757f67c",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "multiplicity-reject-empty-family",
+      "hash": "0xe1e3a6045523b62a49df73e11e9e449069be4784e7c44eceaea534b68efc2c82",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "multiplicity-adjudicate-second",
+      "hash": "0x1d0183169937ac3a255182e4055b7f4184d50469e44d48d5a747943e2a5a4043",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "multiplicity-reject-partial-family",
+      "hash": "0xb15ddb3642b2f44ee5768c84b597da6118c83e0e6d53f7f57a77cd187b5dc474",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "multiplicity-adjudicate-first",
+      "hash": "0x6a750a69973c82ee3ff194ea263d71e29858d305625e12c00f16435223920339",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 1,
+      "idle": 1,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "multiplicity-finalize",
+      "hash": "0x407582791b84c2cf12ffbabaed3bb02df0fc132b6828d70257147e8e6b60b03a",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "multiplicity-reject-repeat-endpoint",
+      "hash": "0x743c69f64287cc5dec628cf8387edb77ea6dbe3fff07a92284958bc86ee57d67",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    },
+    {
+      "label": "multiplicity-reject-repeat-finalize",
+      "hash": "0x58aec9564f28cd4a2ee1be0d3f327f6e099b99717222befcba51556d43bf64df",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "recorded_voters": 5,
+      "rotation_count": 0,
+      "round_count": "1"
+    }
+  ],
+  "transaction_calldata_checked": true,
+  "rejection_bytes_checked": true,
+  "live_state_match": true
+}

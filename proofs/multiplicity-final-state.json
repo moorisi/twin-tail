@@ -1,0 +1,442 @@
+{
+  "assessments": [
+    {
+      "observations": {
+        "rows": [
+          {
+            "control": "FAIL",
+            "control_quote": "The designated task remained unfinished when the observation window ended. A later retry completed the task, but that retry occurred after the deadline.",
+            "pair": "pair-1",
+            "treatment": "PASS",
+            "treatment_quote": "An early draft said the task stalled. The corrected final record confirms completion inside the observation window, without manual intervention."
+          },
+          {
+            "control": "FAIL",
+            "control_quote": "The task completed inside the window only after an operator supplied a missing step. Manual intervention was required; autonomous completion did not occur.",
+            "pair": "pair-2",
+            "treatment": "PASS",
+            "treatment_quote": "The task reached its completion checkpoint during the allotted window. An operator watched the run but did not intervene; the task completed autonomously."
+          },
+          {
+            "control": "FAIL",
+            "control_quote": "A forecast predicted success. The final observation instead records that the designated task never completed before the window closed.",
+            "pair": "pair-3",
+            "treatment": "PASS",
+            "treatment_quote": "The designated task completed before the observation window closed. The final log confirms autonomous completion; no operator or manual intervention occurred."
+          },
+          {
+            "control": "FAIL",
+            "control_quote": "The designated task remained unfinished when the observation window ended. A later retry completed the task, but that retry occurred after the deadline.",
+            "pair": "pair-4",
+            "treatment": "PASS",
+            "treatment_quote": "An early draft said the task stalled. The corrected final record confirms completion inside the observation window, without manual intervention."
+          },
+          {
+            "control": "FAIL",
+            "control_quote": "The task completed inside the window only after an operator supplied a missing step. Manual intervention was required; autonomous completion did not occur.",
+            "pair": "pair-5",
+            "treatment": "PASS",
+            "treatment_quote": "The task reached its completion checkpoint during the allotted window. An operator watched the run but did not intervene; the task completed autonomously."
+          },
+          {
+            "control": "PASS",
+            "control_quote": "The task reached its completion checkpoint during the allotted window. An operator watched the run but did not intervene; the task completed autonomously.",
+            "pair": "pair-6",
+            "treatment": "PASS",
+            "treatment_quote": "The designated task completed before the observation window closed. The final log confirms autonomous completion; no operator or manual intervention occurred."
+          },
+          {
+            "control": "PASS",
+            "control_quote": "The designated task completed before the observation window closed. The final log confirms autonomous completion; no operator or manual intervention occurred.",
+            "pair": "pair-7",
+            "treatment": "PASS",
+            "treatment_quote": "An early draft said the task stalled. The corrected final record confirms completion inside the observation window, without manual intervention."
+          },
+          {
+            "control": "PASS",
+            "control_quote": "An early draft said the task stalled. The corrected final record confirms completion inside the observation window, without manual intervention.",
+            "pair": "pair-8",
+            "treatment": "PASS",
+            "treatment_quote": "The task reached its completion checkpoint during the allotted window. An operator watched the run but did not intervene; the task completed autonomously."
+          }
+        ]
+      },
+      "source": {
+        "endpoint": "archive-export",
+        "family": "multiplicity-family",
+        "pairs": [
+          {
+            "control": "The designated task remained unfinished when the observation window ended. A later retry completed the task, but that retry occurred after the deadline.",
+            "pair": "pair-1",
+            "treatment": "An early draft said the task stalled. The corrected final record confirms completion inside the observation window, without manual intervention."
+          },
+          {
+            "control": "The task completed inside the window only after an operator supplied a missing step. Manual intervention was required; autonomous completion did not occur.",
+            "pair": "pair-2",
+            "treatment": "The task reached its completion checkpoint during the allotted window. An operator watched the run but did not intervene; the task completed autonomously."
+          },
+          {
+            "control": "A forecast predicted success. The final observation instead records that the designated task never completed before the window closed.",
+            "pair": "pair-3",
+            "treatment": "The designated task completed before the observation window closed. The final log confirms autonomous completion; no operator or manual intervention occurred."
+          },
+          {
+            "control": "The designated task remained unfinished when the observation window ended. A later retry completed the task, but that retry occurred after the deadline.",
+            "pair": "pair-4",
+            "treatment": "An early draft said the task stalled. The corrected final record confirms completion inside the observation window, without manual intervention."
+          },
+          {
+            "control": "The task completed inside the window only after an operator supplied a missing step. Manual intervention was required; autonomous completion did not occur.",
+            "pair": "pair-5",
+            "treatment": "The task reached its completion checkpoint during the allotted window. An operator watched the run but did not intervene; the task completed autonomously."
+          },
+          {
+            "control": "The task reached its completion checkpoint during the allotted window. An operator watched the run but did not intervene; the task completed autonomously.",
+            "pair": "pair-6",
+            "treatment": "The designated task completed before the observation window closed. The final log confirms autonomous completion; no operator or manual intervention occurred."
+          },
+          {
+            "control": "The designated task completed before the observation window closed. The final log confirms autonomous completion; no operator or manual intervention occurred.",
+            "pair": "pair-7",
+            "treatment": "An early draft said the task stalled. The corrected final record confirms completion inside the observation window, without manual intervention."
+          },
+          {
+            "control": "An early draft said the task stalled. The corrected final record confirms completion inside the observation window, without manual intervention.",
+            "pair": "pair-8",
+            "treatment": "The task reached its completion checkpoint during the allotted window. An operator watched the run but did not intervene; the task completed autonomously."
+          }
+        ]
+      }
+    },
+    {
+      "observations": {
+        "rows": [
+          {
+            "control": "PASS",
+            "control_quote": "The designated task completed before the observation window closed. The final log confirms autonomous completion",
+            "pair": "pair-1",
+            "treatment": "FAIL",
+            "treatment_quote": "The task completed inside the window only after an operator supplied a missing step. Manual intervention was required"
+          },
+          {
+            "control": "PASS",
+            "control_quote": "The corrected final record confirms completion inside the observation window, without manual intervention.",
+            "pair": "pair-2",
+            "treatment": "FAIL",
+            "treatment_quote": "The final observation instead records that the designated task never completed before the window closed."
+          },
+          {
+            "control": "PASS",
+            "control_quote": "The task reached its completion checkpoint during the allotted window. An operator watched the run but did not intervene",
+            "pair": "pair-3",
+            "treatment": "FAIL",
+            "treatment_quote": "The designated task remained unfinished when the observation window ended. A later retry completed the task"
+          },
+          {
+            "control": "FAIL",
+            "control_quote": "The designated task remained unfinished when the observation window ended. A later retry completed the task",
+            "pair": "pair-4",
+            "treatment": "FAIL",
+            "treatment_quote": "The task completed inside the window only after an operator supplied a missing step. Manual intervention was required"
+          },
+          {
+            "control": "FAIL",
+            "control_quote": "The task completed inside the window only after an operator supplied a missing step. Manual intervention was required",
+            "pair": "pair-5",
+            "treatment": "FAIL",
+            "treatment_quote": "The final observation instead records that the designated task never completed before the window closed."
+          },
+          {
+            "control": "FAIL",
+            "control_quote": "The final observation instead records that the designated task never completed before the window closed.",
+            "pair": "pair-6",
+            "treatment": "FAIL",
+            "treatment_quote": "The designated task remained unfinished when the observation window ended. A later retry completed the task"
+          },
+          {
+            "control": "FAIL",
+            "control_quote": "The designated task remained unfinished when the observation window ended. A later retry completed the task",
+            "pair": "pair-7",
+            "treatment": "FAIL",
+            "treatment_quote": "The task completed inside the window only after an operator supplied a missing step. Manual intervention was required"
+          },
+          {
+            "control": "FAIL",
+            "control_quote": "The task completed inside the window only after an operator supplied a missing step. Manual intervention was required",
+            "pair": "pair-8",
+            "treatment": "FAIL",
+            "treatment_quote": "The final observation instead records that the designated task never completed before the window closed."
+          }
+        ]
+      },
+      "source": {
+        "endpoint": "report-import",
+        "family": "multiplicity-family",
+        "pairs": [
+          {
+            "control": "The designated task completed before the observation window closed. The final log confirms autonomous completion; no operator or manual intervention occurred.",
+            "pair": "pair-1",
+            "treatment": "The task completed inside the window only after an operator supplied a missing step. Manual intervention was required; autonomous completion did not occur."
+          },
+          {
+            "control": "An early draft said the task stalled. The corrected final record confirms completion inside the observation window, without manual intervention.",
+            "pair": "pair-2",
+            "treatment": "A forecast predicted success. The final observation instead records that the designated task never completed before the window closed."
+          },
+          {
+            "control": "The task reached its completion checkpoint during the allotted window. An operator watched the run but did not intervene; the task completed autonomously.",
+            "pair": "pair-3",
+            "treatment": "The designated task remained unfinished when the observation window ended. A later retry completed the task, but that retry occurred after the deadline."
+          },
+          {
+            "control": "The designated task remained unfinished when the observation window ended. A later retry completed the task, but that retry occurred after the deadline.",
+            "pair": "pair-4",
+            "treatment": "The task completed inside the window only after an operator supplied a missing step. Manual intervention was required; autonomous completion did not occur."
+          },
+          {
+            "control": "The task completed inside the window only after an operator supplied a missing step. Manual intervention was required; autonomous completion did not occur.",
+            "pair": "pair-5",
+            "treatment": "A forecast predicted success. The final observation instead records that the designated task never completed before the window closed."
+          },
+          {
+            "control": "A forecast predicted success. The final observation instead records that the designated task never completed before the window closed.",
+            "pair": "pair-6",
+            "treatment": "The designated task remained unfinished when the observation window ended. A later retry completed the task, but that retry occurred after the deadline."
+          },
+          {
+            "control": "The designated task remained unfinished when the observation window ended. A later retry completed the task, but that retry occurred after the deadline.",
+            "pair": "pair-7",
+            "treatment": "The task completed inside the window only after an operator supplied a missing step. Manual intervention was required; autonomous completion did not occur."
+          },
+          {
+            "control": "The task completed inside the window only after an operator supplied a missing step. Manual intervention was required; autonomous completion did not occur.",
+            "pair": "pair-8",
+            "treatment": "A forecast predicted success. The final observation instead records that the designated task never completed before the window closed."
+          }
+        ]
+      }
+    }
+  ],
+  "bounds": [
+    {
+      "lower_counts": [
+        5,
+        0
+      ],
+      "lower_ticks": 8,
+      "lower_witness": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "reachable_counts": 1,
+      "upper_counts": [
+        5,
+        0
+      ],
+      "upper_ticks": 8,
+      "upper_witness": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "lower_counts": [
+        0,
+        3
+      ],
+      "lower_ticks": 256,
+      "lower_witness": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "reachable_counts": 1,
+      "upper_counts": [
+        0,
+        3
+      ],
+      "upper_ticks": 256,
+      "upper_witness": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    }
+  ],
+  "configuration": {
+    "endpoints": [
+      "archive-export",
+      "report-import"
+    ],
+    "family": "multiplicity-family",
+    "hashes": [
+      "52638f0d7f1c30e03bae1fa31d7fcb66ae061cb465bc4223a21f1a65533b2ddb",
+      "14f271c81284ea39d784f5f23383a2192482c6fa776a33e226c4cbb5bcce13f0"
+    ],
+    "pairs": [
+      [
+        "pair-1",
+        "pair-2",
+        "pair-3",
+        "pair-4",
+        "pair-5",
+        "pair-6",
+        "pair-7",
+        "pair-8"
+      ],
+      [
+        "pair-1",
+        "pair-2",
+        "pair-3",
+        "pair-4",
+        "pair-5",
+        "pair-6",
+        "pair-7",
+        "pair-8"
+      ]
+    ],
+    "repository": "moorisi/twin-tail",
+    "urls": [
+      "https://raw.githubusercontent.com/moorisi/twin-tail/f5f631f7c9a9c6640741e5fdc59cbd953d42e81c/fixtures/multiplicity-0.json",
+      "https://raw.githubusercontent.com/moorisi/twin-tail/f5f631f7c9a9c6640741e5fdc59cbd953d42e81c/fixtures/multiplicity-1.json"
+    ]
+  },
+  "result": {
+    "alpha": [
+      1,
+      20
+    ],
+    "decisions": [
+      "NOT_ESTABLISHED",
+      "NOT_ESTABLISHED"
+    ],
+    "denominator": 256,
+    "lower_adjusted_ticks": [
+      16,
+      256
+    ],
+    "status": "COMPLETE",
+    "upper_adjusted_ticks": [
+      16,
+      256
+    ]
+  }
+}

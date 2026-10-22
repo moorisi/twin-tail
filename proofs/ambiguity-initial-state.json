@@ -1,0 +1,49 @@
+{
+  "assessments": [
+    null,
+    null
+  ],
+  "bounds": [
+    null,
+    null
+  ],
+  "configuration": {
+    "endpoints": [
+      "archive-export",
+      "report-import"
+    ],
+    "family": "ambiguity-family",
+    "hashes": [
+      "f7680c890e84737fd13aa151fd347afa2dfc9efd979850fd3e75a76a3e6a34f8",
+      "9315ac7d62abdd0407dd5e29b1be5546ef8d6c2c3faea4b95cc2b89ff19b9f22"
+    ],
+    "pairs": [
+      [
+        "pair-1",
+        "pair-2",
+        "pair-3",
+        "pair-4",
+        "pair-5",
+        "pair-6",
+        "pair-7",
+        "pair-8"
+      ],
+      [
+        "pair-1",
+        "pair-2",
+        "pair-3",
+        "pair-4",
+        "pair-5",
+        "pair-6",
+        "pair-7",
+        "pair-8"
+      ]
+    ],
+    "repository": "moorisi/twin-tail",
+    "urls": [
+      "https://raw.githubusercontent.com/moorisi/twin-tail/f5f631f7c9a9c6640741e5fdc59cbd953d42e81c/fixtures/ambiguity-0.json",
+      "https://raw.githubusercontent.com/moorisi/twin-tail/f5f631f7c9a9c6640741e5fdc59cbd953d42e81c/fixtures/ambiguity-1.json"
+    ]
+  },
+  "result": null
+}

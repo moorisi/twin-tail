@@ -1,0 +1,161 @@
+[
+  {
+    "id": "stepdown",
+    "args": [
+      "moorisi/twin-tail",
+      "stepdown-family",
+      [
+        "archive-export",
+        "report-import"
+      ],
+      [
+        [
+          "pair-1",
+          "pair-2",
+          "pair-3",
+          "pair-4",
+          "pair-5",
+          "pair-6",
+          "pair-7",
+          "pair-8"
+        ],
+        [
+          "pair-1",
+          "pair-2",
+          "pair-3",
+          "pair-4",
+          "pair-5",
+          "pair-6",
+          "pair-7",
+          "pair-8"
+        ]
+      ],
+      [
+        "https://raw.githubusercontent.com/moorisi/twin-tail/f5f631f7c9a9c6640741e5fdc59cbd953d42e81c/fixtures/stepdown-0.json",
+        "https://raw.githubusercontent.com/moorisi/twin-tail/f5f631f7c9a9c6640741e5fdc59cbd953d42e81c/fixtures/stepdown-1.json"
+      ],
+      [
+        "8e533fb1eb19d5eabed67cf5faea0d09e6bc35847bfb323bfb33ace2670c9d76",
+        "fafea034b0f47db97ca1116e3e897d52b4b0ec4f6ce192bd9fd73832370dec0d"
+      ]
+    ],
+    "contract": "0x399C922094A90Aa6a4cF5E28169d9bDCfF59463f",
+    "deployment": "0x707cbd1ed0c07fc47e0b7f0b3f43def38dbfe343721246daf3cbe29977829542",
+    "accounts": [
+      "0x1b7d7e7031a23aeaead937410cd32608ff5eb0e4",
+      "0x1816868a2ed192e577a62e0159cd6b41fba3f0b5",
+      "0x20b354b96eff2420e52fb86af17bce8df208b486",
+      "0x8eac3370686c1c9cf2f7e4933533596f2aa31e6f"
+    ],
+    "fixture_revision": "f5f631f7c9a9c6640741e5fdc59cbd953d42e81c",
+    "source_sha256": "b7f9c0422a03317995da7343e15b8a06d63d7cfc25192bb18c6dcdd0f9ac8c92",
+    "network": "studionet",
+    "chain_id": 61999
+  },
+  {
+    "id": "multiplicity",
+    "args": [
+      "moorisi/twin-tail",
+      "multiplicity-family",
+      [
+        "archive-export",
+        "report-import"
+      ],
+      [
+        [
+          "pair-1",
+          "pair-2",
+          "pair-3",
+          "pair-4",
+          "pair-5",
+          "pair-6",
+          "pair-7",
+          "pair-8"
+        ],
+        [
+          "pair-1",
+          "pair-2",
+          "pair-3",
+          "pair-4",
+          "pair-5",
+          "pair-6",
+          "pair-7",
+          "pair-8"
+        ]
+      ],
+      [
+        "https://raw.githubusercontent.com/moorisi/twin-tail/f5f631f7c9a9c6640741e5fdc59cbd953d42e81c/fixtures/multiplicity-0.json",
+        "https://raw.githubusercontent.com/moorisi/twin-tail/f5f631f7c9a9c6640741e5fdc59cbd953d42e81c/fixtures/multiplicity-1.json"
+      ],
+      [
+        "52638f0d7f1c30e03bae1fa31d7fcb66ae061cb465bc4223a21f1a65533b2ddb",
+        "14f271c81284ea39d784f5f23383a2192482c6fa776a33e226c4cbb5bcce13f0"
+      ]
+    ],
+    "contract": "0xae3004B29fE5396DFD1Bd97244023e36B04d999B",
+    "deployment": "0xc55d6fb337042b4685d7a11101437867b6c40ea0fd797a589a7faafad757f67c",
+    "accounts": [
+      "0x9feec158c6725aef21415ff8dd17f66f37265259",
+      "0x48cecabadc9ea9aa61116d1b1fa271f341ece4bd",
+      "0xfbf997b6bdfa9ba78ac9122e66825f17d7195822",
+      "0xd7a76d5b8ffff490a62e30b3155671524e0081b6"
+    ],
+    "fixture_revision": "f5f631f7c9a9c6640741e5fdc59cbd953d42e81c",
+    "source_sha256": "b7f9c0422a03317995da7343e15b8a06d63d7cfc25192bb18c6dcdd0f9ac8c92",
+    "network": "studionet",
+    "chain_id": 61999
+  },
+  {
+    "id": "ambiguity",
+    "args": [
+      "moorisi/twin-tail",
+      "ambiguity-family",
+      [
+        "archive-export",
+        "report-import"
+      ],
+      [
+        [
+          "pair-1",
+          "pair-2",
+          "pair-3",
+          "pair-4",
+          "pair-5",
+          "pair-6",
+          "pair-7",
+          "pair-8"
+        ],
+        [
+          "pair-1",
+          "pair-2",
+          "pair-3",
+          "pair-4",
+          "pair-5",
+          "pair-6",
+          "pair-7",
+          "pair-8"
+        ]
+      ],
+      [
+        "https://raw.githubusercontent.com/moorisi/twin-tail/f5f631f7c9a9c6640741e5fdc59cbd953d42e81c/fixtures/ambiguity-0.json",
+        "https://raw.githubusercontent.com/moorisi/twin-tail/f5f631f7c9a9c6640741e5fdc59cbd953d42e81c/fixtures/ambiguity-1.json"
+      ],
+      [
+        "f7680c890e84737fd13aa151fd347afa2dfc9efd979850fd3e75a76a3e6a34f8",
+        "9315ac7d62abdd0407dd5e29b1be5546ef8d6c2c3faea4b95cc2b89ff19b9f22"
+      ]
+    ],
+    "contract": "0xCe13Bc11293c097E2bDD6328fb11864F220DF187",
+    "deployment": "0x67186a8e22053e53ddd95f4127f7c238de0cd9811fd4f2f8c5f528dbf0160116",
+    "accounts": [
+      "0x325b06f3bc53bb6d52c8fa6593b2604f5f4bed43",
+      "0xc5708eda41303b945f281470ea357657d9a12392",
+      "0xee9167811d9f443e48dd90d623ffbd02ad6aac67",
+      "0xcdfbe8914b8b00342171a125a3ca7cdab9274f78"
+    ],
+    "fixture_revision": "f5f631f7c9a9c6640741e5fdc59cbd953d42e81c",
+    "source_sha256": "b7f9c0422a03317995da7343e15b8a06d63d7cfc25192bb18c6dcdd0f9ac8c92",
+    "network": "studionet",
+    "chain_id": 61999
+  }
+]

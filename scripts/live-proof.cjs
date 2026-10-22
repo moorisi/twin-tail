@@ -3,7 +3,7 @@ const {root,assert,equal,digest,sourceHash,save,invoke,read,rpc,receipt}=require
 const {cases,args,descriptor,initial,plan,replay}=require('./scenario.cjs');
 async function main(){
  assert(await rpc('eth_chainId',[])==='0xf22f','Gasless StudioNet only');
- const actors=JSON.parse(process.env.TWIN_ACCOUNTS||'null');assert(actors?.length===4,'Four distinct signing members');
+ const actors=JSON.parse(process.env.TWIN_ACCOUNTS||'null');assert(actors?.length===4,'Four independent permissionless callers');
  const accounts=actors.map(a=>a.address.toLowerCase()),revision=fs.readFileSync(path.join(root,'config/fixture-revision.txt'),'utf8').trim();assert(/^[a-f0-9]{40}$/.test(revision),'Pinned fixture revision');
  const suite=[];
  const selected=process.env.TWIN_SCENARIO||'all';assert(selected==='all'||Object.hasOwn(cases,selected),'Unknown proof scenario');

@@ -11,7 +11,7 @@ async function main(){
   if(Array.isArray(x))return x.map(plain);return x;
  }
  const leaders=receipt.consensus_data.leader_receipt.map((entry,index)=>({index,execution:entry.execution_result,outputs:Object.entries(entry.eq_outputs||{}).map(([call,encoded])=>{
-  const raw=Buffer.from(encoded,'base64');return {call,tag:raw[0],model:raw[0]===0?plain(abi.calldata.decode(raw.subarray(1))).model:null};
+  const raw=Buffer.from(encoded,'base64');return {call,tag:raw[0],observations:raw[0]===0?plain(abi.calldata.decode(raw.subarray(1))).observations:null};
  })}));
  const validators=receipt.consensus_data.validators.map(v=>({vote:v.vote,nondet_disagree:v.nondet_disagree,stdout:v.genvm_result?.stdout,stderr:v.genvm_result?.stderr}));
  console.log(JSON.stringify({hash:receipt.hash||receipt.tx_id,result:receipt.result_name||receipt.result,leaders,validators},null,2));

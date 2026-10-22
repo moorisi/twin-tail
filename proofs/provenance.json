@@ -1,0 +1,28 @@
+{
+  "repository": "moorisi/twin-tail",
+  "network": "studionet",
+  "chain_id": 61999,
+  "runs": [
+    {
+      "scenario": "stepdown",
+      "workflow_run": "39749358961",
+      "url": "https://github.com/moorisi/twin-tail/actions/runs/39749358961",
+      "source_sha256": "b7f9c0422a03317995da7343e15b8a06d63d7cfc25192bb18c6dcdd0f9ac8c92",
+      "fixture_revision": "f5f631f7c9a9c6640741e5fdc59cbd953d42e81c"
+    },
+    {
+      "scenario": "multiplicity",
+      "workflow_run": "39749364396",
+      "url": "https://github.com/moorisi/twin-tail/actions/runs/39749364396",
+      "source_sha256": "b7f9c0422a03317995da7343e15b8a06d63d7cfc25192bb18c6dcdd0f9ac8c92",
+      "fixture_revision": "f5f631f7c9a9c6640741e5fdc59cbd953d42e81c"
+    },
+    {
+      "scenario": "ambiguity",
+      "workflow_run": "39749369053",
+      "url": "https://github.com/moorisi/twin-tail/actions/runs/39749369053",
+      "source_sha256": "b7f9c0422a03317995da7343e15b8a06d63d7cfc25192bb18c6dcdd0f9ac8c92",
+      "fixture_revision": "f5f631f7c9a9c6640741e5fdc59cbd953d42e81c"
+    }
+  ]
+}
