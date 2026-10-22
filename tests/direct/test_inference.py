@@ -176,7 +176,7 @@ def test_committed_bad_source_is_rejected(direct_deploy, direct_vm, change):
     elif change == 'oversized': source['pairs'][0]['control'] = 'x' * 18001
     raw = json.dumps(source).encode()
     if change == 'duplicate': raw = b'{"family":"stepdown-family","family":"other"}'
-    if change == 'invalid-json': raw = b'{' 
+    if change == 'invalid-json': raw = b'{'
     c = deploy(direct_deploy, bodies=[raw, record('stepdown', 1)[2]])
     mocks(direct_vm, body=raw); before = c.get_state()
     with direct_vm.expect_revert('[EXTERNAL]'): c.adjudicate(0)
