@@ -1,0 +1,52 @@
+name: StudioNet paired inference proofs
+run-name: TwinTail — ${{ inputs.scenario || 'all' }}
+on:
+  workflow_dispatch:
+    inputs:
+      scenario:
+        description: Complete suite or independent inference scenario
+        type: choice
+        default: all
+        options: [all, stepdown, multiplicity, ambiguity]
+permissions:
+  contents: read
+concurrency:
+  group: twin-tail-studionet-${{ inputs.scenario || 'all' }}
+  cancel-in-progress: false
+jobs:
+  prove:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      TWIN_SCENARIO: ${{ inputs.scenario || 'all' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Install pinned tooling
+        run: |
+          pip install -r requirements-dev.txt
+          npm ci --no-audit --no-fund
+          genvm-lint download --version v0.2.16
+      - name: Lint and test consensus, completion bounds and Holm decisions
+        run: |
+          genvm-lint check contracts/twin_tail.py --json
+          node --test tests/rpc-preflight.test.cjs
+          python -m pytest tests/direct -q --junitxml=proofs/cloud-direct-tests.xml
+      - name: Prepare four encrypted disposable caller wallets
+        run: node scripts/bootstrap-ci.cjs
+      - name: Deploy and exercise selected inference family
+        run: node scripts/live-proof.cjs
+      - name: Verify fresh source, signatures, calldata, votes and complete state
+        run: node scripts/verify-proofs.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: studionet-proofs
+          path: |
+            proofs/*.json
+            proofs/*.xml

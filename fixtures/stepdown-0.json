@@ -1,0 +1,46 @@
+{
+  "family": "stepdown-family",
+  "endpoint": "archive-export",
+  "pairs": [
+    {
+      "pair": "pair-1",
+      "control": "The designated task remained unfinished when the observation window ended. A later retry completed the task, but that retry occurred after the deadline.",
+      "treatment": "An early draft said the task stalled. The corrected final record confirms completion inside the observation window, without manual intervention."
+    },
+    {
+      "pair": "pair-2",
+      "control": "The task completed inside the window only after an operator supplied a missing step. Manual intervention was required; autonomous completion did not occur.",
+      "treatment": "The task reached its completion checkpoint during the allotted window. An operator watched the run but did not intervene; the task completed autonomously."
+    },
+    {
+      "pair": "pair-3",
+      "control": "A forecast predicted success. The final observation instead records that the designated task never completed before the window closed.",
+      "treatment": "The designated task completed before the observation window closed. The final log confirms autonomous completion; no operator or manual intervention occurred."
+    },
+    {
+      "pair": "pair-4",
+      "control": "The designated task remained unfinished when the observation window ended. A later retry completed the task, but that retry occurred after the deadline.",
+      "treatment": "An early draft said the task stalled. The corrected final record confirms completion inside the observation window, without manual intervention."
+    },
+    {
+      "pair": "pair-5",
+      "control": "The task completed inside the window only after an operator supplied a missing step. Manual intervention was required; autonomous completion did not occur.",
+      "treatment": "The task reached its completion checkpoint during the allotted window. An operator watched the run but did not intervene; the task completed autonomously."
+    },
+    {
+      "pair": "pair-6",
+      "control": "A forecast predicted success. The final observation instead records that the designated task never completed before the window closed.",
+      "treatment": "The designated task completed before the observation window closed. The final log confirms autonomous completion; no operator or manual intervention occurred."
+    },
+    {
+      "pair": "pair-7",
+      "control": "The designated task remained unfinished when the observation window ended. A later retry completed the task, but that retry occurred after the deadline.",
+      "treatment": "An early draft said the task stalled. The corrected final record confirms completion inside the observation window, without manual intervention."
+    },
+    {
+      "pair": "pair-8",
+      "control": "An early draft said the task stalled. The corrected final record confirms completion inside the observation window, without manual intervention.",
+      "treatment": "The task reached its completion checkpoint during the allotted window. An operator watched the run but did not intervene; the task completed autonomously."
+    }
+  ]
+}
